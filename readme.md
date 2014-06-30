@@ -1,3 +1,10 @@
+Larabook
+========
+
+A work-along repository to go with Laracasts' "[Let's Build Larabook From Scratch](https://laracasts.com/series/build-a-laravel-app-from-scratch)" series.
+
+Live demo available at http://voidteamdev.net
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
