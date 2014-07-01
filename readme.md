@@ -5,6 +5,8 @@ A work-along repository to go with Laracasts' "[Let's Build Larabook From Scratc
 
 Live demo available at http://voidteamdev.net
 
+**Lesson 1:** Basically covered just setting up homestead, although not quite relevant to this repo.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
