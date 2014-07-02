@@ -7,6 +7,8 @@ Live demo available at http://voidteamdev.net
 
 **Lesson 1:** Basically covered just setting up homestead, although not quite relevant to this repo.
 
+**Lesson 2:** Added some dependencies including generators, codeception, and a couple laracasts-specific packages.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
