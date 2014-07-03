@@ -9,6 +9,8 @@ Live demo available at http://voidteamdev.net
 
 **Lesson 2:** Added some dependencies including generators, codeception, and a couple laracasts-specific packages.
 
+**Lesson 3:** This just showcases how to use environment variables to protect sensitive database information and hook up to Sequel Pro, which I have done before the lessons even started.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
