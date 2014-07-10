@@ -7,6 +7,9 @@
 	<script src="//code.jquery.com/jquery.js"></script>
 </head>
 <body>
+
+	@include("layouts.partials.nav")
+
 	<div class="container">
 		@yield("content")
 	</div>

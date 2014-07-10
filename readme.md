@@ -13,6 +13,8 @@ Live demo available at http://voidteamdev.net
 
 **Lesson 4:** Added our "Master Page" and pulled in Bootstrap for design. Also created a simple PagesController for our simple static pages.
 
+**Lesson 5:** Basic Homepage design with Bootstrap boilerplate code, prepared for SASS install.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
