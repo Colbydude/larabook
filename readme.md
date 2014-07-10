@@ -11,6 +11,8 @@ Live demo available at http://voidteamdev.net
 
 **Lesson 3:** This just showcases how to use environment variables to protect sensitive database information and hook up to Sequel Pro, which I have done before the lessons even started.
 
+**Lesson 4:** Added our "Master Page" and pulled in Bootstrap for design. Also created a simple PagesController for our simple static pages.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
