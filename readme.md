@@ -17,6 +17,8 @@ Live demo available at http://voidteamdev.net
 
 **Lesson 6:** Install Gulp and set up some basic tasks for automatically watching and compiling scss files.
 
+**Lesson 7:** We setup some unit tests with Codeception and fake registration functionality.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
