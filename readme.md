@@ -19,6 +19,8 @@ Live demo available at http://voidteamdev.net
 
 **Lesson 7:** We setup some unit tests with Codeception and fake registration functionality.
 
+**Lesson 8:** Extremely basic user registration and authentication.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
