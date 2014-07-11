@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Larabook</title>
 	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/main.css" rel="stylesheet">
 	<script src="//code.jquery.com/jquery.js"></script>
 </head>
 <body>

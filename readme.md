@@ -15,6 +15,8 @@ Live demo available at http://voidteamdev.net
 
 **Lesson 5:** Basic Homepage design with Bootstrap boilerplate code, prepared for SASS install.
 
+**Lesson 6:** Install Gulp and set up some basic tasks for automatically watching and compiling scss files.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
