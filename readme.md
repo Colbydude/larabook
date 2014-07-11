@@ -25,6 +25,8 @@ Live demo available at http://voidteamdev.net
 
 **Lesson 10:** For larger applications that need to be maintained for years, it makes sense to take a step back, and think about architecture. Let's use commands to describe the various instructions that our app offers, as well as a command bus to manage the act of translating these commands into handler classes.
 
+**Lesson 11:** Add a simple domain event for user registration.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
