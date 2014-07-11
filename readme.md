@@ -21,6 +21,8 @@ Live demo available at http://voidteamdev.net
 
 **Lesson 8:** Extremely basic user registration and authentication.
 
+**Lesson 9:** Registration Validation and some nicer styling.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
