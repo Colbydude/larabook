@@ -27,6 +27,8 @@ Live demo available at http://voidteamdev.net
 
 **Lesson 11:** Add a simple domain event for user registration.
 
+**Lesson 12:** Add simple Flash Messaging to use between views.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
