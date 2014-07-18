@@ -29,6 +29,8 @@ Live demo available at http://voidteamdev.net
 
 **Lesson 12:** Add simple Flash Messaging to use between views.
 
+**Lesson 13:** Setup basic user feedback if we're logged in or not.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)

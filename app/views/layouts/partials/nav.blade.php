@@ -13,6 +13,19 @@
 			<ul class="nav navbar-nav">
 				<li class="active">{{ link_to_route('home', 'Home', null, null) }}</li>
 			</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				@if ($currentUser)
+					<li class="dropdown">
+						<a href="#" data-toggle="dropdown">{{ $currentUser->username }} <span class="caret"></span></a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#">Action</a></li>
+						</ul>
+					</li>
+				@else
+					<li><a href="/login">Log In</a></li>
+				@endif
+			</ul>
 		</div>
 	</div>
 </nav>
