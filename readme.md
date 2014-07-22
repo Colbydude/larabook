@@ -3,7 +3,7 @@ Larabook
 
 A work-along repository to go with Laracasts' "[Let's Build Larabook From Scratch](https://laracasts.com/series/build-a-laravel-app-from-scratch)" series.
 
-Live demo available at http://voidteamdev.net
+Live demo available at http://larabook.voidteamdev.net
 
 **Lesson 1:** Basically covered just setting up homestead, although not quite relevant to this repo.
 

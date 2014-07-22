@@ -13,5 +13,14 @@ body {
   background-color: #3d578e;
   color: #fff; }
 
+.navbar-default .navbar-toggle {
+  border-color: #fff; }
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #3d578e; }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff; }
+
 .container h1:first-of-type {
   margin-top: 0; }
