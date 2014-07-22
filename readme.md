@@ -31,6 +31,8 @@ Live demo available at http://voidteamdev.net
 
 **Lesson 13:** Setup basic user feedback if we're logged in or not.
 
+**Lesson 14:** We set up signing into Larabook and create a simple test to prove that this works.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
