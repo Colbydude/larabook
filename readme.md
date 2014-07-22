@@ -33,6 +33,8 @@ Live demo available at http://voidteamdev.net
 
 **Lesson 14:** We set up signing into Larabook and create a simple test to prove that this works.
 
+**Lesson 15:** Fix up Codecept and make our tests return to green. We also move fixtures.yml from app/tests to test/.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
