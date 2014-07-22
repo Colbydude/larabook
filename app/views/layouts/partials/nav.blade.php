@@ -19,7 +19,7 @@
 					<li class="dropdown">
 						<a href="#" data-toggle="dropdown">{{ $currentUser->username }} <span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
-							<li><a href="#">Action</a></li>
+							<li>{{ link_to_route('logout_path', 'Log Out', null, null) }}</li>
 						</ul>
 					</li>
 				@else
