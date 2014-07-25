@@ -12,6 +12,11 @@ class User extends \Eloquent implements UserInterface, RemindableInterface {
 
 	use UserTrait, RemindableTrait, EventGenerator;
 
+	/**
+	 * Which fields may be mass assigned?
+	 *
+	 * @var array
+	 */
 	protected $fillable = ['username', 'email', 'password'];
 
 	/**
@@ -28,11 +33,34 @@ class User extends \Eloquent implements UserInterface, RemindableInterface {
 	 */
 	protected $hidden = array('password', 'remember_token');
 
+	/**
+	 * Passwords must always be hashed.
+	 *
+	 * @param $password
+	 */
 	public function setPasswordAttribute($password)
 	{
 		$this->attributes['password'] = Hash::make($password);
 	}
 
+	/**
+	 * A user has many statuses.
+	 *
+	 * @return mixed
+	 */
+	public function statuses()
+	{
+		return $this->hasMany('Larabook\Statuses\Status');
+	}
+
+	/**
+	 * Register a new user
+	 *
+	 * @param $username
+	 * @param $email
+	 * @param $password
+	 * @return User
+	 */
 	public static function register($username, $email, $password)
 	{
 		$user = new static(compact('username', 'email', 'password'));

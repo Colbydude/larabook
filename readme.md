@@ -35,6 +35,8 @@ Live demo available at http://larabook.voidteamdev.net
 
 **Lesson 15:** Fix up Codecept and make our tests return to green. We also move fixtures.yml from app/tests to test/.
 
+**Lesson 16:** Boy this was a long one! In this lesson we add in extremely basic functionality to publish and view statuses.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
