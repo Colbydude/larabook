@@ -37,6 +37,8 @@ Live demo available at http://larabook.voidteamdev.net
 
 **Lesson 16:** Boy this was a long one! In this lesson we add in extremely basic functionality to publish and view statuses.
 
+**Lesson 17:** We add some integration tests to make sure repositories work well.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
