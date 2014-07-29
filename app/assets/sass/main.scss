@@ -54,7 +54,6 @@ body
 	left: -8px;
 	position: relative;
 	top: -6px;
-	border-radius: 4px;
 }
 
 .container h1:first-of-type
@@ -72,6 +71,9 @@ body
 	textarea
 	{
 		border: none;
+		border-radius: 0;
+		box-shadow: none;
+		resize: none;
 
 		&:focus
 		{
@@ -81,13 +83,15 @@ body
 
 	.status-post-submit
 	{
+		background: #F6F7F8;
 		border-top: 1px solid #e9e9e9;
 		margin-bottom: 0;
 		overflow: hidden;
-		padding: .5em 1em;
+		padding: .5em .5em;
 
 		.btn
 		{
+			border-radius: 0;
 			float: right;
 		}
 	}
@@ -99,4 +103,9 @@ body
 	border: 1px solid #e3e3e3;
 	margin-bottom: 2em;
 	padding: 1em;
+
+	h4
+	{
+		margin-bottom: 0;
+	}
 }
