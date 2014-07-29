@@ -43,6 +43,8 @@ Live demo available at http://larabook.voidteamdev.net
 
 **Lesson 19:** Style out the statuses and make things much prettier and easier to comprehend. We update our tests as well.
 
+**Lesson 20:** Import Faker to be easily able to generate dummy data. Also handled trying to log in to an account that doesn't exist (did I miss this earlier?).
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)

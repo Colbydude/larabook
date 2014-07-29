@@ -1,6 +1,9 @@
 @extends("layouts.default")
 
 @section("content")
+
+	@include("layouts.partials.errors")
+
 	<h1>Sign In!</h1>
 
 	{{ Form::open(["route" => "login_path"]) }}

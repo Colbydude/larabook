@@ -42,6 +42,12 @@ class SessionsController extends \BaseController
 
 			return Redirect::intended("statuses");
 		}
+		else
+		{
+			Flash::error("We couldn't find an account with these credentials.");
+
+			return Redirect::intended("login");
+		}
 	}
 
 	/**
