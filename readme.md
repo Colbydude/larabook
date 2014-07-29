@@ -41,6 +41,8 @@ Live demo available at http://larabook.voidteamdev.net
 
 **Lesson 18:** We add simple Gravatar support by using a User Presenter.
 
+**Lesson 19:** Style out the statuses and make things much prettier and easier to comprehend. We update our tests as well.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)

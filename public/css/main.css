@@ -33,3 +33,27 @@ body {
 
 .container h1:first-of-type {
   margin-top: 0; }
+
+.status-post {
+  background: white;
+  border: 1px solid #e3e3e3;
+  margin-bottom: 3em;
+  padding: 0; }
+  .status-post textarea {
+    border: none; }
+    .status-post textarea:focus {
+      -webkit-box-shadow: none;
+              box-shadow: none; }
+  .status-post .status-post-submit {
+    border-top: 1px solid #e9e9e9;
+    margin-bottom: 0;
+    overflow: hidden;
+    padding: 0.5em 1em; }
+    .status-post .status-post-submit .btn {
+      float: right; }
+
+.status-media {
+  background: white;
+  border: 1px solid #e3e3e3;
+  margin-bottom: 2em;
+  padding: 1em; }
