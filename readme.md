@@ -39,6 +39,8 @@ Live demo available at http://larabook.voidteamdev.net
 
 **Lesson 17:** We add some integration tests to make sure repositories work well.
 
+**Lesson 18:** We add simple Gravatar support by using a User Presenter.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)

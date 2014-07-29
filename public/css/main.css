@@ -22,5 +22,14 @@ body {
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fff; }
 
+.nav-gravatar {
+  border: 1px solid #324875;
+  float: left;
+  left: -8px;
+  position: relative;
+  top: -6px;
+  -webkit-border-radius: 4px;
+          border-radius: 4px; }
+
 .container h1:first-of-type {
   margin-top: 0; }
