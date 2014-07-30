@@ -45,6 +45,8 @@ Live demo available at http://larabook.voidteamdev.net
 
 **Lesson 20:** Import Faker to be easily able to generate dummy data. Also handled trying to log in to an account that doesn't exist (did I miss this earlier?).
 
+**Lesson 21:** We add a simple user index to browse through all the registered users.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)

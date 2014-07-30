@@ -65,3 +65,11 @@ body {
   padding: 1em; }
   .status-media h4 {
     margin-bottom: 0; }
+
+.users {
+  margin-bottom: 3em; }
+
+.user-block {
+  text-align: center; }
+  .user-block .avatar {
+    margin: auto; }
