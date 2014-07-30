@@ -47,6 +47,8 @@ Live demo available at http://larabook.voidteamdev.net
 
 **Lesson 21:** We add a simple user index to browse through all the registered users.
 
+**Lesson 22:** Add User Profiles as well as according tests and the ability to post statuses from your own profile.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
