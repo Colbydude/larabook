@@ -49,7 +49,9 @@ Live demo available at http://larabook.voidteamdev.net
 
 **Lesson 22:** Add User Profiles as well as according tests and the ability to post statuses from your own profile.
 
-**Lesson 23:** Quick refactoring session. Fixed my user table migration to include `remember_token` as well
+**Lesson 23:** Quick refactoring session. Fixed my user table migration to include `remember_token` as well.
+
+**Lesson 24:** A lot here! We add the ability to follow users as well as clean up our statuses page to display the statuses of who you're following, as well as yourself.
 
 ## Laravel PHP Framework
 
