@@ -53,6 +53,8 @@ Live demo available at http://larabook.voidteamdev.net
 
 **Lesson 24:** A lot here! We add the ability to follow users as well as clean up our statuses page to display the statuses of who you're following, as well as yourself.
 
+**Lesson 25:** This time we make it so the user is able to unfollow users they are following, and tidy up the user profile a bit. As well as add appropriate tests.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)

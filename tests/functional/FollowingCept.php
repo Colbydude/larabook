@@ -9,9 +9,14 @@ $I->signIn();
 
 $I->click('Browse Users');
 $I->click('OtherUser');
-
 $I->seeCurrentUrlEquals('/@OtherUser');
+
+// When I follow a user...
 $I->click('Follow OtherUser');
 $I->seeCurrentUrlEquals('/@OtherUser');
-$I->see('You are following OtherUser');
-$I->dontSee('Follow OtherUser');
+$I->see('Unfollow OtherUser');
+
+// When I unfollow that same user...
+$I->click('Unfollow OtherUser');
+$I->seeCurrentUrlEquals('/@OtherUser');
+$I->see('Follow OtherUser');
