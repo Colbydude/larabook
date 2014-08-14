@@ -55,6 +55,8 @@ Live demo available at http://larabook.voidteamdev.net
 
 **Lesson 25:** This time we make it so the user is able to unfollow users they are following, and tidy up the user profile a bit. As well as add appropriate tests.
 
+**Lesson 26:** Some slight refactoring. Allows us to now view the "Browse Users" page and profiles without being logged in.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)

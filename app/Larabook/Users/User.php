@@ -59,7 +59,7 @@ class User extends \Eloquent implements UserInterface, RemindableInterface {
 	 */
 	public function statuses()
 	{
-		return $this->hasMany('Larabook\Statuses\Status');
+		return $this->hasMany('Larabook\Statuses\Status')->latest();
 	}
 
 	/**
@@ -86,7 +86,7 @@ class User extends \Eloquent implements UserInterface, RemindableInterface {
      * @param $user
      * @return bool
      */
-    public function is(User $user)
+    public function is($user)
     {
         if (is_null($user)) return false;
 
