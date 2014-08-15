@@ -57,6 +57,8 @@ Live demo available at http://larabook.voidteamdev.net
 
 **Lesson 26:** Some slight refactoring. Allows us to now view the "Browse Users" page and profiles without being logged in.
 
+**Lesson 27:** Threw in a simple mailer to handle welcome emails on registration. However, this won't fire in production at the moment.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)

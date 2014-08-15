@@ -11,7 +11,7 @@
 |
 */
 
-Event::listen('Larabook.Registration.Events.UserRegistered', function($event)
+Event::listen('Larabook.Registration.Events.UserHasRegistered', function($event)
 {
 	//dd("send a notification email");
 });
