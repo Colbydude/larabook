@@ -59,6 +59,8 @@ Live demo available at http://larabook.voidteamdev.net
 
 **Lesson 27:** Threw in a simple mailer to handle welcome emails on registration. However, this won't fire in production at the moment.
 
+**Lesson 28:** Setup some SASS partials. The lesson also uses a theme made by Laracasts User Amit Erandole, however I've already implemented some styling of my own. So we'll continue with that.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
