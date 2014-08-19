@@ -61,6 +61,8 @@ Live demo available at http://larabook.voidteamdev.net
 
 **Lesson 28:** Setup some SASS partials. The lesson also uses a theme made by Laracasts User Amit Erandole, however I've already implemented some styling of my own. So we'll continue with that.
 
+**Lesson 29:** We add the ability to reset a user's password, however we're only logging at this point. No emails are actually sent.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
