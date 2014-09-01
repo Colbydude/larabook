@@ -74,6 +74,7 @@ My deployment script is as follows:
 ```sh
 $ cd /home/forge/larabook.voidteamdev.net
 $ git pull origin master
+$ mkdir -p app/models
 $ composer install
 $ php artisan migrate
 $ mkdir -p public/build
