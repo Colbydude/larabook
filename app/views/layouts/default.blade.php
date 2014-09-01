@@ -15,8 +15,26 @@
 
 		@yield("content")
 	</div>
+
+	<div class="container text-center">
+		@if (file_exists('build/version.txt'))
+			<p><small>Version: <a href="https://github.com/Colbydude/larabook/commit/{{ file_get_contents('build/version.txt') }}">{{ file_get_contents('build/version.txt') }}</a></small></p>
+		@endif
+	</div>
+
 	<script src="//code.jquery.com/jquery.js"></script>
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-	<script>$('#flash-overlaymodal').modal();</script>
+	<script>
+		$('#flash-overlaymodal').modal();
+
+		$('.comments__create-form').on('keydown', function(e)
+		{
+			if (e.keyCode == 13)
+			{
+				e.preventDefault();
+				$(this).submit();
+			}
+		});
+	</script>
 </body>
 </html>

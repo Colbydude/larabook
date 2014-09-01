@@ -63,6 +63,23 @@ Live demo available at http://larabook.voidteamdev.net
 
 **Lesson 29:** We add the ability to reset a user's password, however we're only logging at this point. No emails are actually sent.
 
+**Lesson 30:** Long lesson here! This time we allow users to post comments to statuses.
+
+## Deployment
+
+This site is hosted with [Laravel Forge](https://forge.laravel.com/) and [Digital Ocean](https://www.digitalocean.com/).
+
+My deployment script is as follows:
+
+```sh
+$ cd /home/forge/larabook.voidteamdev.net
+$ git pull origin master
+$ composer install
+$ php artisan migrate
+$ mkdir -p public/build
+$ git rev-parse HEAD > public/build/version.txt
+```
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)

@@ -4,6 +4,12 @@ use Larabook\Users\User;
 
 class StatusRepository
 {
+	/**
+	 * Get all statuses for a user.
+	 *
+	 * @param User $user
+	 * @return mixed
+	 */
 	public function getAllForUser(User $user)
 	{
 		return $user->statuses()->with('user')->latest()->get();
@@ -34,6 +40,15 @@ class StatusRepository
         $userIds = $user->followedUsers()->lists('followed_id');
         $userIds[] = $user->id;
 
-        return Status::whereIn('user_id', $userIds)->latest()->get();
+        return Status::with('comments')->whereIn('user_id', $userIds)->latest()->get();
     }
+
+	public function leaveComment($userId, $statusId, $body)
+	{
+		$comment = Comment::leave($body, $statusId);
+
+		User::findOrFail($userId)->comments()->save($comment);
+
+		return $comment;
+	}
 }

@@ -38,11 +38,31 @@
 {
 	background: white;
 	border: 1px solid #e3e3e3;
-	margin-bottom: 2em;
+	border-bottom: none;
 	padding: 1em;
 
 	h4
 	{
 		margin-bottom: 0;
 	}
+}
+
+.comments__create-form textarea
+{
+	border: 1px solid #e3e3e3;
+	border-top: none;
+	border-radius: 0;
+}
+
+.comments
+{
+	margin-bottom: 5em;
+}
+
+.comments__comment
+{
+	background: darken(white, 10%);
+	border: 1px solid darken(white, 15%);
+	border-bottom: 1px solid #e3e3e3;
+	margin-top: 0;
 }

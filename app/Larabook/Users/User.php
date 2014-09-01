@@ -40,7 +40,7 @@ class User extends \Eloquent implements UserInterface, RemindableInterface {
 	 *
 	 * @var array
 	 */
-	protected $hidden = array('password', 'remember_token');
+	protected $hidden = ['password', 'remember_token'];
 
 	/**
 	 * Passwords must always be hashed.
@@ -93,6 +93,11 @@ class User extends \Eloquent implements UserInterface, RemindableInterface {
         return $this->username == $user->username;
     }
 
-
-
+	/**
+	 * @return mixed
+	 */
+	public function comments()
+	{
+		return $this->hasMany('Larabook\Statuses\Comment');
+	}
 }

@@ -66,6 +66,11 @@ Route::post('statuses', [
 	'uses' => 'StatusesController@store'
 ]);
 
+Route::post('statuses/{id}/comments', [
+	'as' => 'comment_path',
+	'uses' => 'CommentsController@store'
+]);
+
 /**
  * Users
  */
