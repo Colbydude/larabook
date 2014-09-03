@@ -38,7 +38,7 @@
 {
 	background: white;
 	border: 1px solid #e3e3e3;
-	border-bottom: none;
+	margin-bottom: 20px;
 	padding: 1em;
 
 	h4
@@ -47,22 +47,39 @@
 	}
 }
 
+.comments__create-form .form-group
+{
+	margin-bottom: 20px;
+}
+
 .comments__create-form textarea
 {
 	border: 1px solid #e3e3e3;
-	border-top: none;
 	border-radius: 0;
+	box-shadow: none;
+	margin-top: -21px;
+	max-width: 100%;
+
+	&:focus
+	{
+		border: 1px solid #e3e3e3;
+		box-shadow: none;
+	}
 }
 
 .comments
 {
-	margin-bottom: 5em;
+	margin-bottom: 40px;
 }
 
 .comments__comment
 {
-	background: darken(white, 10%);
-	border: 1px solid darken(white, 15%);
-	border-bottom: 1px solid #e3e3e3;
-	margin-top: 0;
+	background: #f6f7f8;
+	border: 1px solid #e3e3e3;
+	margin-top: -21px;
+
+	&:first-child
+	{
+		margin-top: -21px;
+	}
 }
