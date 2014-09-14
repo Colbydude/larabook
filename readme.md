@@ -65,7 +65,7 @@ Live demo available at http://larabook.voidteamdev.net
 
 **Lesson 30:** Long lesson here! This time we allow users to post comments to statuses.
 
-`**Lesson 31:** This lesson just covers deploying to [Laravel Forge](https://forge.laravel.com/) with [Digital Ocean](https://www.digitalocean.com/?refcode=37f8b131538c), which I've been doing the whole time! So I just updated the footer to reflect that.
+**Lesson 31:** This lesson just covers deploying to [Laravel Forge](https://forge.laravel.com/) with [Digital Ocean](https://www.digitalocean.com/?refcode=37f8b131538c), which I've been doing the whole time! So I just updated the footer to reflect that.
 
 ## Deployment
 
