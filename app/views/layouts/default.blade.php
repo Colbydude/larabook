@@ -17,6 +17,7 @@
 	</div>
 
 	<div class="container text-center">
+		<p><small>Hosted with <a href="https://forge.laravel.com" target="_blank">Laravel Forge</a> and <a href="https://www.digitalocean.com/?refcode=37f8b131538c" target="_blank">DigitalOcean</a></small></p>
 		@if (file_exists('build/version.txt'))
 			<p><small>Version: <a href="https://github.com/Colbydude/larabook/commit/{{ file_get_contents('build/version.txt') }}">{{ file_get_contents('build/version.txt') }}</a></small></p>
 		@endif
