@@ -100,4 +100,4 @@ Route::delete('follows/{id}', [
 /*
  * Password Resets
  */
-Route: Route::controller('password', 'RemindersController');
+Route::controller('password', 'RemindersController');
