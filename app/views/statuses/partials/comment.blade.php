@@ -6,6 +6,6 @@
 	<div class="media-body">
 		<h4 class="media-heading">{{ $comment->owner->username }}</h4>
 
-		{{ $comment->body }}
+		{{{ $comment->body }}}
 	</div>
 </article>
