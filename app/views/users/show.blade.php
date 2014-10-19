@@ -3,7 +3,7 @@
 @section('content')
     <div class="row">
         <div class="col-md-4">
-            <div class=""media">
+            <div class="media profile">
                 <div class="pull-left">
                     @include ('users.partials.avatar', ['size' => 50])
                 </div>

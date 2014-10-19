@@ -22,7 +22,7 @@
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus
 {
-	background-color: #3d578e;
+	background-color: #3b558c;
 	color: #fff;
 }
 
@@ -49,4 +49,14 @@
 	left: -8px;
 	position: relative;
 	top: -6px;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus
+{
+	@media (max-width: 767px)
+	{
+		color: white;
+	}
 }
