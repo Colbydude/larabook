@@ -19,7 +19,7 @@ class UserRepository
      * @param int $howMany
      * @return mixed
      */
-    public function getPaginated($howMany = 25)
+    public function getPaginated($howMany = 24)
     {
         return User::orderBy('username', 'asc')->paginate($howMany);
     }
